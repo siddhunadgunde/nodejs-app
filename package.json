@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "The Hello-World! app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nodejs-project-group/nodejs-app.git"
+  },
+  "author": "Siddhu Nadgunde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/nodejs-project-group/nodejs-app/issues"
+  },
+  "homepage": "https://gitlab.com/nodejs-project-group/nodejs-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^3.0.0"
+  }
+}
