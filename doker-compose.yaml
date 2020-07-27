@@ -1,0 +1,8 @@
+nodejs-app:
+  restart: always
+  image: nodejs-app
+  build: ./nodejs-app
+  container_name: nodejs-app
+  environment:
+    - VIRTUAL_HOST=nodejs-app.siddhunadgunde.com
+    - VIRTUAL_PORT=3000
